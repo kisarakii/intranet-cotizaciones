@@ -1,0 +1,10 @@
+/* Variables base del tema (puedes ajustar el naranja exacto aquí) */
+$rc-orange: #ff6a00;
+
+/* Opcional: sobreescribir primary de Bootstrap a naranja corporativo */
+$primary: $rc-orange;
+
+/* Ajustes de contraste en navbars oscuras (Bootstrap usa estas) */
+$navbar-dark-color: rgba(255, 255, 255, 0.9);
+$navbar-dark-hover-color: #ffffff;
+$navbar-dark-active-color: #ffffff;

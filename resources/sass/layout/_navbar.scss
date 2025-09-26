@@ -1,0 +1,75 @@
+/* Estilos del header/navbar y offcanvas */
+
+.navbar-rc {
+  background-color: $rc-orange !important; /* Naranja corporativo en el navbar */
+}
+
+.offcanvas-title {
+  font-weight: 600;
+}
+
+/* ---- OFFCANVAS LOOK & FEEL ---- */
+.offcanvas {
+  border-left: 0;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+.offcanvas-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Encabezados pequeños dentro del offcanvas (Menú / Cuenta) */
+.offcanvas-body .text-muted {
+  letter-spacing: .04em;
+}
+
+/* Links del offcanvas */
+.offcanvas .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: .25rem;
+  font-weight: 500;
+  color: #343a40;
+
+  &:hover {
+    color: $rc-orange;
+  }
+}
+
+/* Separación entre items en columna */
+.offcanvas .nav .nav-item + .nav-item {
+  margin-top: .25rem;
+}
+
+/* Dropdown dentro del offcanvas (cuando aplique) */
+.offcanvas .dropdown-menu {
+  border: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,.12);
+}
+
+/* Fondo del offcanvas */
+.offcanvas {
+  background-color: #f8f9fa; // Gris claro Bootstrap por defecto
+}
+
+/* Si prefieres usar el naranja corporativo */
+.offcanvas.offcanvas-end {
+  background-color: $rc-orange;
+  color: #fff; // texto blanco para contraste
+}
+
+.offcanvas .nav-link {
+  color: inherit; // respeta el color del contenedor (blanco si fondo es naranja)
+}
+
+
+
+/* Botón flotante de idioma hereda su estilo del componente */
+.lang-switcher .btn {
+  border-radius: 999px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.12);
+}

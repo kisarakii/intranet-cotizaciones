@@ -1,0 +1,12 @@
+/* 1) Variables antes de importar Bootstrap */
+@import "base/variables";
+
+/* 2) Bootstrap */
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+/* 2.1) Bootstrap Icons (para poder usar <i class="bi bi-...">) */
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons";
+
+/* 3) Estilos del proyecto por áreas */
+@import "layout/navbar";
+@import "components/lang-fab";

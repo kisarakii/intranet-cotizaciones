@@ -1,0 +1,13 @@
+/* Botón flotante para cambiar idioma */
+.lang-switcher {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1050;
+
+  .btn {
+    border-radius: 999px;
+    padding: .6rem .8rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .15);
+  }
+}
